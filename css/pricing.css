@@ -1,0 +1,89 @@
+/* COLORS */
+
+
+body {
+    height: 100%;
+    background-color: var(--secondary-2);
+    color: var(--secondary-1);
+}
+
+
+.container {
+  max-width: 960px;
+}
+
+.container-pricing{
+    margin: 40px 0px;
+}  
+
+.pricing-header{
+  max-width: 700px;
+}
+
+/* CARD */
+.card-header.card-basic{
+    background-color: #fff;
+    color: var(--primary-2);
+}
+
+.card-header.card-pro{
+    background-color: var(--primary-1);
+    color: var(--primary-2);
+}
+
+/*
+#card-fis-pro{
+    background-color: var(--primary-1);
+    color: var(--primary-2);
+}
+
+#card-jur-basic{
+    background-color: var(--secondary-1);
+    color: var(--secondary-2);
+}
+
+#card-jur-pro{
+    background-color: var(--primary-2);
+    color: var(--secondary-2);
+}
+
+#card-jur-premium{
+    background-color: var(--primary-1);
+    color: var(--primary-2);
+}
+/*.card-header{
+    background-color: var(--secondary-2);
+    color: var(--primary-2);
+}*/
+
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.cover-container {
+    max-width: 70em !important;
+  }
+
+/* BUTTON */
+.btn-primary{
+    background-color: var(--primary-2);
+    border: none;
+}
+
+.btn-outline-primary{
+    border-color: var(--primary-2);
+    color: var(--primary-2);
+}
+
+.btn-outline-primary:hover{
+    border-color: var(--primary-1);
+    background-color: transparent;
+    color: var(--primary-1);
+}
+
+.btn-primary:hover{
+    background-color: var(--secondary-3);
+    color: var(--primary-2);
+    border: none;
+}

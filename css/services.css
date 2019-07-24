@@ -1,0 +1,168 @@
+body {
+    color: var(--secondary-1);
+    height: 100%;
+    background-color: #fff;
+}
+
+
+p{
+    margin: 0;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header{
+  max-width: 700px;
+}
+
+/* BUTTON */
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: var(--secondary-2);
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: var(--secondary-2);
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: var(--primary-1);
+  padding: 20px 25px;
+  border: .05rem solid var(--secondary-2);
+}
+
+.btn-secondary:hover{
+  background-color: var(--secondary-3);
+  color: var(--primary-2);
+}
+
+/* CARD */
+.card-header.card-basic{
+    background-color: #fff;
+    color: var(--primary-2);
+}
+
+.card-header.card-pro{
+    background-color: var(--primary-1);
+    color: var(--primary-2);
+}
+
+/*
+#card-fis-pro{
+    background-color: var(--primary-1);
+    color: var(--primary-2);
+}
+
+#card-jur-basic{
+    background-color: var(--secondary-1);
+    color: var(--secondary-2);
+}
+
+#card-jur-pro{
+    background-color: var(--primary-2);
+    color: var(--secondary-2);
+}
+
+#card-jur-premium{
+    background-color: var(--primary-1);
+    color: var(--primary-2);
+}
+/*.card-header{
+    background-color: var(--secondary-2);
+    color: var(--primary-2);
+}*/
+
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.cover-container {
+    max-width: 70em !important;
+  }
+
+/* BUTTON */
+.btn-primary{
+    background-color: var(--primary-2);
+    border: none;
+}
+
+.btn-outline-primary{
+    border-color: var(--primary-2);
+    color: var(--primary-2);
+}
+
+.container-services{
+    margin: 40px 0px;
+}  
+
+/* CERTIDÕES */
+
+.container-cert{
+    margin:40px 0px;
+}
+
+.step{
+    border-bottom: solid 1px black;
+}
+
+.content{
+    padding: 20px 0px;
+}
+
+.icon{
+    margin-bottom: 10px;
+}
+
+.card-cert{
+    margin-top: 30px;
+}
+
+.card-cert:hover{
+    color: var(--primary-1);
+}
+
+.exchange{
+    display: flex;
+    justify-content: center;
+}
+
+.element{
+    padding: 10px;
+    font-size: 140%;
+}
+
+.card-info{
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/* Organizaçao */
+.container-steps{
+    margin: 40px 0px;
+}
+
+.card-steps{
+    align-items: center;
+    margin-bottom: 24px;
+    background-color: var(--secondary-2);
+    margin: 35px 0px;
+}
+
+.card-img-steps{
+    padding: 0;
+}
+
+.img-steps{
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-content{
+    padding: 0px 80px;
+}

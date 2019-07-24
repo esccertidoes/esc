@@ -1,0 +1,28 @@
+body {
+  color: var(--secondary-1);
+  height: 100%;
+    background-color: var(--secondary-2);
+}
+
+
+    .cover-container {
+      max-width: 70em !important;
+    }
+
+.container-who{
+    margin: 40px 0px;
+}  
+
+#title{
+    text-align: left;
+    padding-bottom: 24px;
+}
+
+#img-team{
+    height: 100%;
+    width: 100%;
+}
+
+.content{
+    align-items: center;
+}
